@@ -3,9 +3,14 @@
     flex-direction: row;
     background-color: #333841;
     height: 15vh;
-    
-    
 }
+
+.sticky {
+  position: sticky;
+  top: 0; 
+  z-index: 99999;
+}
+
 .img{
     height: 12vh;
 }
@@ -39,7 +44,6 @@ ul {
 }
 
 li {
-  
  float: left;
 }
 
